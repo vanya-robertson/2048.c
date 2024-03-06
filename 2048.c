@@ -474,23 +474,19 @@ int main(int argc, char *argv[])
 		}
 		switch (c)
 		{
-		case 97:  // 'a' key
-		case 104: // 'h' key
+		case 105: // 'i' key
 		case 68:  // left arrow
 			success = moveLeft(board, &score);
 			break;
-		case 100: // 'd' key
-		case 108: // 'l' key
+		case 111: // 'o' key
 		case 67:  // right arrow
 			success = moveRight(board, &score);
 			break;
-		case 119: // 'w' key
-		case 107: // 'k' key
+		case 101: // 'e' key
 		case 65:  // up arrow
 			success = moveUp(board, &score);
 			break;
-		case 115: // 's' key
-		case 106: // 'j' key
+		case 110: // 'n' key
 		case 66:  // down arrow
 			success = moveDown(board, &score);
 			break;
